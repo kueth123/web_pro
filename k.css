@@ -1,75 +1,61 @@
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
+  .page_1body {
+    width: 100%;
+    height: auto;
+  }
 
+  .header {
+    margin: 0;
+    border: 50px;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 
-    .page_1body {
-        width: 100%;
-        height: auto;
-    }
+  .logo_container {
+    display: inline;
+    margin: 20px 20px 20px 20px;
+  }
 
-    .header {
+  .top_right {
+    float: right;
+  }
 
-        margin: 0px;
-        border: 50px;
-        width: 100%;
-        height: auto;
-        display: block;
-    }
+  .logo {
+    float: left;
+    color: blue;
+  }
 
-    .logo_container {
-        display: inline;
-        margin: 20px 20px 20px 20px;
+  .headline {
+    padding: 20px;
+    background-image: url(background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    background-position-x: -50%;
+    background-position-y: 500;
+  }
 
-    }
+  .headline h1 {
+    font-size: 300%;
+  }
 
-    .top_right {
-        float: right;
-    }
+  .message {
+    color: #333;
+    font-size: 20px;
+    width: 600px;
+    height: auto;
+    margin: 80px;
+  }
 
-    .logo {
-        float: left;
-        color: blue;
+  .hi {
+    color: blue;
+    font-size: 20px;
+  }
 
-    }
-
-
-    .headline {
-        padding: 20px;
-        background-image: url(background.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: auto;
-        background-position-x: -50%;
-        background-size: -50%;
-        background-position-y: 500;
-    }
-
-    .headline h1 {
-        font-size: 300%;
-    }
-
-
-    .message {
-        color: #333;
-        font-size: 20px;
-        margin-bottom: 0px;
-        width: 600px;
-        height: auto;
-        ;
-        margin: 80px;
-
-
-    }
-
-    .hi {
-        color: blue;
-        font-size: 20px;
-    }
-
-    .image {
-        border-image-width: 300px;
-        height: auto;
-        display: list-item;
-    }
-
-
+  .image {
+    border-image-width: 300px;
+    height: auto;
+    display: list-item;
+  }
 }
