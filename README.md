@@ -9,5 +9,7 @@ The main program i used in this project is vs code and using of linters
 [live demo](https://kueth123.github.io/web_pro/)
 # Getting started!
 You can also create your own using the live demo and the following softwares
-#
+#Prerequisites
+Visual Studio code.git
+Node js recommended to use the version your instructor us
 
