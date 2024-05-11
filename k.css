@@ -1,0 +1,61 @@
+@media screen and (min-width: 768px) {
+  .page_1body {
+    width: 100%;
+    height: auto;
+  }
+
+  .header {
+    margin: 0;
+    border: 50px;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .logo_container {
+    display: inline;
+    margin: 20px 20px 20px 20px;
+  }
+
+  .top_right {
+    float: right;
+  }
+
+  .logo {
+    float: left;
+    color: blue;
+  }
+
+  .headline {
+    padding: 20px;
+    background-image: url(background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    background-position-x: -50%;
+    background-position-y: 500;
+  }
+
+  .headline h1 {
+    font-size: 300%;
+  }
+
+  .message {
+    color: #333;
+    font-size: 20px;
+    width: 600px;
+    height: auto;
+    margin: 80px;
+  }
+
+  .hi {
+    color: blue;
+    font-size: 20px;
+  }
+
+  .image {
+    border-image-width: 300px;
+    height: auto;
+    display: list-item;
+  }
+}
