@@ -1,5 +1,6 @@
-function test() {
-  const x = 4;
-  return x;
-}
-test();
+const navList = document.querySelector('.top_right nav .nav-list');
+const navListItems = navList.querySelectorAll('li');
+
+navListItems.forEach((item) => {
+  item.style.display = 'block';
+});
